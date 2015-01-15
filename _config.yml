@@ -4,7 +4,7 @@
 
 url: http://thoughtworks-china-qa.github.io
 title: ThoughtWorks China QA Blog
-subtitle: Enjoy your coding life.
+subtitle: Better quality, better life.
 author: ThoughtWorks China QA Group
 simple_search: https://www.google.com/search
 description:
@@ -70,8 +70,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_button: true
+#twitter_user:
+#twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -99,3 +99,9 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Weibo Share
+weibo_share: true
+
+# Youyan Comments
+youyan_comments: true

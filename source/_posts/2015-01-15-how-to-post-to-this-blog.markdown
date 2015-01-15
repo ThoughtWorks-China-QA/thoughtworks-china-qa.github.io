@@ -32,8 +32,9 @@ In this repo besides master there's a branch called 'source'. Everytime when you
 
        ---
 Add your content below this paragraph and save it
+- Run `rake generate`
 - Now you can run `rake preview` to preview your blog. Just open [http://localhost:4000/](http://localhost:4000/)
-- When you finish editing please run `rake gen_deploy` it will push your changes to master automatically
+- When you finish editing please run `rake deploy` it will push your changes to master automatically
 - Last step please run these one by one
 
       `git add .`
