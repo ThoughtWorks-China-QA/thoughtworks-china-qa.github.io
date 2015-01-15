@@ -3,7 +3,7 @@ layout: post
 title: "ThoughtWorks Xi'an QA Workshop"
 date: 2015-01-14 19:08:05 +0800
 comments: true
-categories: agile testing, bdd, capybara, cucumber, selenium, tech radar, ui automation
+categories:
 sharing: true
 ---
 科技改变世界，敏捷改变测试。

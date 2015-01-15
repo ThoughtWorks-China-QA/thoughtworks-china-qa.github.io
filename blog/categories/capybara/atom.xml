@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Capybara, | ThoughtWorks China QA Blog]]></title>
+  <link href="http://thoughtworks-china-qa.github.io/blog/categories/capybara/atom.xml" rel="self"/>
+  <link href="http://thoughtworks-china-qa.github.io/"/>
+  <updated>2015-01-15T20:08:14+08:00</updated>
+  <id>http://thoughtworks-china-qa.github.io/</id>
+  <author>
+    <name><![CDATA[ThoughtWorks China QA Group]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ThoughtWorks Xi'an QA Workshop]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop/"/>
+    <updated>2015-01-14T19:08:05+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop</id>
+    <content type="html"><![CDATA[<p>科技改变世界，敏捷改变测试。</p>
+
+<p><code>TDD/BDD/ATDD, Agile testing, Kanban, Mobile testing, Appium</code>…</p>
+
+<p>在敏捷盛行的今天，测试行业也新鲜名词辈出，在科技改变世界的时代，QA们，请把工作交给计算机，让科技和计算机改变QA生活。</p>
+
+<p>如何把QA工作交给计算机？如何让计算机靠谱的跟人一样的去做测试工作？让我们来告诉你！</p>
+
+<p>本次UI Automation Workshop，将手把手教会你如何使用BDD的方式进行自动化测试，将QA工作靠谱地交给计算机。同时，测试行业的哪些新的技术动态？有哪些新的测试工具？又有哪些能改变QA生活的新东西？本次活动将为你一网打尽，带来测试行业最前沿趋势、最流行趋势测试工具大揭秘——<code>ThoughWorks 2015 Technology Radar lightning talk</code>。</p>
+
+<p>此次活动为2015年第一次，后续我们会继续组织测试行业的交流活动，再也不用遗憾西安没有测试交流活动啦，快快加入我们吧！</p>
+
+<h3>时间：2015.1.31 周六 下午1:00</h3>
+
+<h3>地点：陕西省西安市雁塔区高新区锦业一路4号软件研发大厦H座11层</h3>
+
+<h3>日程：</h3>
+
+<table>
+<thead>
+<tr>
+<th>         </th>
+<th style="text-align:left;">                             </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1:00~1:20    </td>
+<td style="text-align:left;">|   签到                          </td>
+</tr>
+<tr>
+<td>1:20~1:30    </td>
+<td style="text-align:left;">|   开场                          </td>
+</tr>
+<tr>
+<td>1:30~3:30    </td>
+<td style="text-align:left;">|   UI Automation Workshop       </td>
+</tr>
+<tr>
+<td>3:30~3:45    </td>
+<td style="text-align:left;">|   提问及茶歇                     </td>
+</tr>
+<tr>
+<td>3:45~5:00    </td>
+<td style="text-align:left;">|   <strong>Technology Radar lightning talk</strong> </td>
+</tr>
+<tr>
+<td>5:00~5:30    </td>
+<td style="text-align:left;">|   Q&amp;A                          </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>报名链接 <a href="https://www.jinshuju.net/f/BSGi4B">https://www.jinshuju.net/f/BSGi4B</a></p>
+
+<p>或扫描二维码：</p>
+
+<p><img src="/images/workshop-qrcode.png" alt="Image of workshop-qrcode" /></p>
+
+<p>如果你不知道技术雷达是什么，请看这里 <a href="http://www.thoughtworks.com/cn/radar">http://www.thoughtworks.com/cn/radar</a></p>
+
+<p>本次测试相关技术及工具:</p>
+
+<ul>
+<li>Appium及GenyMotion</li>
+<li>Postman</li>
+<li>Swagger</li>
+<li>Mountebank及Pact &amp; Pacto</li>
+<li>Packet beat (DevOps, QA)</li>
+<li>Focus on mean time to recovery</li>
+<li>Front end instrumentation</li>
+</ul>
+
+
+<p>如果你不知道ThoughtWorks，请看这里 <a href="http://www.thoughtworks.com/cn/">http://www.thoughtworks.com/cn/</a></p>
+]]></content>
+  </entry>
+  
+</feed>

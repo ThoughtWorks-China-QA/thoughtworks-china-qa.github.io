@@ -2,24 +2,40 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-14T22:08:05+11:00</lastmod>
+=======
+    <lastmod>2015-01-14T19:08:05+08:00</lastmod>
+>>>>>>> 6ae4147f9de354e376b8f58479ad3fbdd03e1ea1
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://thoughtworks-china-qa.github.io/blog/archives/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-15T01:42:32+11:00</lastmod>
+=======
+    <lastmod>2015-01-15T20:08:14+08:00</lastmod>
+>>>>>>> 6ae4147f9de354e376b8f58479ad3fbdd03e1ea1
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://thoughtworks-china-qa.github.io/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-15T01:42:32+11:00</lastmod>
+=======
+    <lastmod>2015-01-15T20:08:14+08:00</lastmod>
+>>>>>>> 6ae4147f9de354e376b8f58479ad3fbdd03e1ea1
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://thoughtworks-china-qa.github.io/ui-automation/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-15T01:42:32+11:00</lastmod>
+=======
+    <lastmod>2015-01-15T20:08:14+08:00</lastmod>
+>>>>>>> 6ae4147f9de354e376b8f58479ad3fbdd03e1ea1
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
