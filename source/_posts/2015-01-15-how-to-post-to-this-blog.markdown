@@ -3,7 +3,7 @@ layout: post
 title: "How to post to this blog"
 date: 2015-01-13 21:39:49 +0800
 comments: true
-categories: 
+categories: others
 sharing: true
 ---
 
@@ -14,6 +14,8 @@ In this repo besides master there's a branch called 'source'. Everytime when you
 - Enter the repo `cd thoughtworks-china-qa.github.io`
 - Run `git status` and make sure that you are on source branch. All of our changes will be pushed to source insteand of master
 - Run `rake setup_github_pages` and input our repo: 'git@github.com:ThoughtWorks-China-QA/thoughtworks-china-qa.github.io.git'
+
+<!-- more -->
 
 ##New post
 - Run command `rake new post` and then enter you post's title. It will generate a new markdown file for you under `source/_posts`
