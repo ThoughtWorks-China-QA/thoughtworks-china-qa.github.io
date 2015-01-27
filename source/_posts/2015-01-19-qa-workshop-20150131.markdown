@@ -62,6 +62,8 @@ Windows我们选取的是以win7为例，其他win8系统等也可以。
 
 	NOTE：如果出现错误提示`ERROR: Could not find a valid gem 'bundler' in any repository`，这是因为网络被qiang的原因，您可以在1.31活动现场我们帮您解决。
 
+5. 安装Firefox。最新版的支持不太好，请安装34及以下版本。[download.firefox.com.cn](http://download.firefox.com.cn/releases/stub/34.0/official/zh-CN/Firefox-latest.exe)
+
 
 
 ---
@@ -80,6 +82,8 @@ Windows我们选取的是以win7为例，其他win8系统等也可以。
 
 	* 通过下述命令检查ruby版本: `$ ruby -v`。
 3. 安装Bundler：`$ gem install bundler`
+
+4. 安装Firefox。最新版的支持不太好，请安装34及以下版本。[download.firefox.com.cn](http://download.firefox.com.cn/releases/firefox/34.0/zh-CN/Firefox-latest.dmg)
 
 
 
