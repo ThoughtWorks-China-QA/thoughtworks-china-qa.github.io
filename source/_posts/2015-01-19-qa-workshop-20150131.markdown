@@ -21,7 +21,7 @@ Windows我们选取的是以win7为例，其他win8系统等也可以。
 
 1. 安装ruby。下载[RubyInstaller 1.9.3-p551](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p551.exe?direct)并安装。
 
-<!-- more -->
+	<!-- more -->
 
 	- 选择语言
 
