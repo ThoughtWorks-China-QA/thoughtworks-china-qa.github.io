@@ -45,4 +45,4 @@ categories:
 
 1.访问http://localhost:4000/dashboard 有数据
 
-2.可以ctrl+c或者直接关掉Term，关闭服务器。
+2.可以Ctrl+c或者直接关掉Term，即可关闭服务器。
