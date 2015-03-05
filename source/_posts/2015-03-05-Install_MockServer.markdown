@@ -27,9 +27,11 @@ categories:
 
 5.执行git fetch（在MockServer目录下执行）
 执行失败，提示需要RSA key
+
 解决办法：浏览：https://git02.ae.sda.corp.telstra.com/projects/TX
-当时用cuiliang的Dnumber登陆的，将.ssh文件夹下的ip_psa.pub文件中
+用有权限的Dnumber登陆的，将.ssh文件夹下的ip_psa.pub文件中
 得所有的内容拷贝到文本框中，即可添加成功。
+
 这时再次执行git fetch命令成功，且有进度提示
 
 6.执行git checkout master，确保在master的分支上
