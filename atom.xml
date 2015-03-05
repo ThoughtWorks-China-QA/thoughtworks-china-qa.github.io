@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ThoughtWorks China QA Blog]]></title>
+  <link href="http://thoughtworks-china-qa.github.io/atom.xml" rel="self"/>
+  <link href="http://thoughtworks-china-qa.github.io/"/>
+  <updated>2015-03-05T17:16:18+08:00</updated>
+  <id>http://thoughtworks-china-qa.github.io/</id>
+  <author>
+    <name><![CDATA[ThoughtWorks China QA Group]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to quickly install the MockServer]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/03/05/Install_MockServer/"/>
+    <updated>2015-03-05T16:03:56+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/03/05/Install_MockServer</id>
+    <content type="html"><![CDATA[<p>一、环境准备</p>
+
+<p>1.安装homebrew工具（可以用ruby -e &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install">https://raw.githubusercontent.com/Homebrew/install/master/install</a>)&#8221;安装</p>
+
+<p>2.安装corkscrew工具（可以用brew install corkscrew安装）</p>
+
+<p>3.安装nodejs（可以用brew install node安装）</p>
+
+<p>如果以上工具都已安装完成，可忽略以上步骤</p>
+
+<p>二、搭建步骤</p>
+
+<p>1.配置本地代理：代理地址：<a href="http://10.29.10.12/pac/msp_proxy.pac">http://10.29.10.12/pac/msp_proxy.pac</a></p>
+
+<p>2.配置SSH代理：将目录切换到cd ~/.ssh/到ssh文件夹下，将config（切记关掉该文件）文件放置到ssh目录下（可以用命令ssh-keygen 生成/.ssh/文件夹）</p>
+
+<p>3.执行git init：ls后发现默认路径是/Users/twer/.git/（可以通过mkdir，cd命令新建自己的目录，我的目录在MockServer下）</p>
+
+<p>4.在MockServer目录下执行：git remote add origin ssh://git@git02.ae.sda.corp.telstra.com/tx/telstra24x7-mockserver-nodejs.git</p>
+
+<p>5.执行git fetch（在MockServer目录下执行）
+执行失败，提示需要RSA key
+解决办法：浏览：<a href="https://git02.ae.sda.corp.telstra.com/projects/TX">https://git02.ae.sda.corp.telstra.com/projects/TX</a>
+当时用有权限的Dnumber登陆的，将.ssh文件夹下的ip_psa.pub文件中
+得所有的内容拷贝到文本框中，即可添加成功。
+这时再次执行git fetch命令成功，且有进度提示</p>
+
+<p>6.执行git checkout master，确保在master的分支上</p>
+
+<p>7.启动服务（可以选一个）
+./startDEVMSPServer.sh
+./startQAMSPServer.sh
+./startSNAPPServer.sh</p>
+
+<p>三、搭建完成后验证</p>
+
+<p>1.访问<a href="http://localhost:4000/dashboard%E6%9C%89%E6%95%B0%E6%8D%AE">http://localhost:4000/dashboard%E6%9C%89%E6%95%B0%E6%8D%AE</a></p>
+
+<p>2.可以ctrl+c或者直接关掉Term，关闭服务器。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[1.31QA公开交流活动资料汇总]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/02/03/workshop-materials/"/>
+    <updated>2015-02-03T17:27:35+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/02/03/workshop-materials</id>
+    <content type="html"><![CDATA[<p>第一部分：postman &amp; swagger &amp; moutebank &amp; packetbeat</p>
+
+<object data="/images/1.pdf" type="application/pdf" width="100%" height="600">
+<a href="http://thoughtworks-china-qa.github.io/images/1.pdf">1.pdf</a>
+</object>
+
+
+<p>第二部分：Appium &amp; Tech</p>
+
+<object data="/images/2.pdf" type="application/pdf" width="100%" height="600">
+<a href="http://thoughtworks-china-qa.github.io/images/2.pdf">2.pdf</a>
+</object>
+
+
+<p>第三部分：
+<a href="http://iamshijie.github.io/blog/2015/01/21/consumer-driven-contract-testing-pact-and-pacto/">Consumer-Driven Contracts Test - Pact &amp; Pacto</a></p>
+
+<p>第四部分：Workshop</p>
+
+<object data="/images/4.pdf" type="application/pdf" width="100%" height="600">
+<a href="http://thoughtworks-china-qa.github.io/images/4.pdf">4.pdf</a>
+</object>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【活动回顾】西安第一次QA公开交流活动]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/02/03/workshop-summary/"/>
+    <updated>2015-02-03T17:08:03+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/02/03/workshop-summary</id>
+    <content type="html"><![CDATA[<object data="/images/3.pdf" type="application/pdf" width="100%" height="800">
+<a href="http://thoughtworks-china-qa.github.io/images/3.pdf">3.pdf</a>
+</object>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ThoughtWorks Xi'an QA Workshop]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop/"/>
+    <updated>2015-01-14T19:08:05+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop</id>
+    <content type="html"><![CDATA[<p>科技改变世界，敏捷改变测试。</p>
+
+<p><code>TDD/BDD/ATDD, Agile testing, Kanban, Mobile testing, Appium</code>…</p>
+
+<p>在敏捷盛行的今天，测试行业也新鲜名词辈出，在科技改变世界的时代，QA们，请把工作交给计算机，让科技和计算机改变QA生活。</p>
+
+<p>如何把QA工作交给计算机？如何让计算机靠谱的跟人一样的去做测试工作？让我们来告诉你！</p>
+
+<p>本次UI Automation Workshop，将手把手教会你如何使用BDD的方式进行自动化测试，将QA工作靠谱地交给计算机。同时，测试行业的哪些新的技术动态？有哪些新的测试工具？又有哪些能改变QA生活的新东西？本次活动将为你一网打尽，带来测试行业最前沿趋势、最流行趋势测试工具大揭秘——<code>ThoughWorks 2015 Technology Radar lightning talk</code>。</p>
+
+<p>此次活动为2015年第一次，后续我们会继续组织测试行业的交流活动，再也不用遗憾西安没有测试交流活动啦，快快加入我们吧！</p>
+
+<h3>时间：2015.1.31 周六 下午1:00</h3>
+
+<h3>地点：陕西省西安市雁塔区高新区锦业一路4号软件研发大厦H座11层</h3>
+
+<h3>日程：</h3>
+
+<table>
+<thead>
+<tr>
+<th>         </th>
+<th style="text-align:left;">                             </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1:00~1:20    </td>
+<td style="text-align:left;">|   签到                          </td>
+</tr>
+<tr>
+<td>1:20~1:30    </td>
+<td style="text-align:left;">|   开场                          </td>
+</tr>
+<tr>
+<td>1:30~3:30    </td>
+<td style="text-align:left;">|   UI Automation Workshop       </td>
+</tr>
+<tr>
+<td>3:30~3:45    </td>
+<td style="text-align:left;">|   提问及茶歇                     </td>
+</tr>
+<tr>
+<td>3:45~5:00    </td>
+<td style="text-align:left;">|   <strong>Technology Radar lightning talk</strong> </td>
+</tr>
+<tr>
+<td>5:00~5:30    </td>
+<td style="text-align:left;">|   Q&amp;A                          </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>报名链接 <a href="https://www.jinshuju.net/f/BSGi4B">https://www.jinshuju.net/f/BSGi4B</a></p>
+
+<p>或扫描二维码：</p>
+
+<p><img src="http://thoughtworks-china-qa.github.io/images/workshop-qrcode.png" alt="Image of workshop-qrcode" /></p>
+
+<p>如果你不知道技术雷达是什么，请看这里 <a href="http://www.thoughtworks.com/cn/radar">http://www.thoughtworks.com/cn/radar</a></p>
+
+<p>本次测试相关技术及工具:</p>
+
+<ul>
+<li>Appium及GenyMotion</li>
+<li>Postman</li>
+<li>Swagger</li>
+<li>Mountebank及Pact &amp; Pacto</li>
+<li>Packet beat (DevOps, QA)</li>
+<li>Focus on mean time to recovery</li>
+<li>Front end instrumentation</li>
+</ul>
+
+
+<p>如果你不知道ThoughtWorks，请看这里 <a href="http://www.thoughtworks.com/cn/">http://www.thoughtworks.com/cn/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Workshop环境准备]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/13/qa-workshop-20150131/"/>
+    <updated>2015-01-13T23:29:42+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/13/qa-workshop-20150131</id>
+    <content type="html"><![CDATA[<p>本次Workshop，首先我们需要安装一些必备工具/程序，从下面适合您使用的操作系统的教程进行安装。如果碰到问题，不用着急，欢迎<a href="mailto:jyang@thoughtworks.com">联系我们</a>，我们可以一起来想办法。</p>
+
+<p><a href="#windows">Windows下的安装指南</a></p>
+
+<p><a href="#osx">OS X下的安装指南</a></p>
+
+<p><a href="#sublime">编辑器安装(可选)</a></p>
+
+<h2 id='windows'>Windows下的安装指南</h2>
+
+
+<p>Windows我们选取的是以win7为例，其他win8系统等也可以。</p>
+
+<ol>
+<li><p>安装ruby。下载<a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p551.exe?direct">RubyInstaller 1.9.3-p551</a>并安装。</p>
+
+<p> <!-- more --></p>
+
+<ul>
+<li>选择语言</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-1.png" alt="setup-ruby-1.png" width="400px" /></p>
+
+<ul>
+<li>选择同意</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-2.png" alt="setup-ruby-2.png" width="400px" /></p>
+
+<ul>
+<li>选择配置，勾选三个复选框。分别代表：安装Tcl/Tk支持、把Ruby执行文件设置到环境变量PATH、把.rb与.rbw文件与.Ruby关联</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-3.png" alt="setup-ruby-3.png" width="400px" /></p>
+
+<ul>
+<li>安装完成</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-4.png" alt="setup-ruby-4.png" width="400px" /></p>
+
+<ul>
+<li>确认安装正常。点击如图所示的Start Command Prompt with Ruby，进入命令行。</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/start-command.png" alt="start command" width="220px" /></p>
+
+<ul>
+<li>查看ruby和gem安装版本。分别执行<code>ruby -v</code> 和 <code>gem --version</code></li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/check-version.png" alt="check versions" width="300px" /></p></li>
+<li><p>安装DevKit。下载<a href="https://github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe">DevKit</a>并解压。在命令行中进入解压目录，并执行<code>ruby dk.rb init</code>, <code>ruby dk.rb install</code></p>
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/install-devkit.png" alt="install DevKit" width="500px" /></p></li>
+<li><p>安装rubygems。下载<a href="http://production.cf.rubygems.org/rubygems/rubygems-2.4.5.zip">rubygems</a>的zip包，解压，在命令行中进入解压的目录: <code>cd rubygems-2.4.5</code>，并进行安装: <code>ruby setup.rb</code></p>
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-rubygems.png" alt="setup-rubygems" width="300px" /></p></li>
+<li><p>继续在命令行中安装bundler: <code>gem install bundler</code>。安装成功后，执行<code>bundler -v</code>查看版本</p>
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/install-bundler.png" alt="install-bundler" width="300px" /></p>
+
+<p> NOTE：如果出现错误提示<code>ERROR: Could not find a valid gem 'bundler' in any repository</code>，这是因为网络被qiang的原因，您可以在1.31活动现场我们帮您解决。</p></li>
+<li><p>安装Firefox。最新版的支持不太好，请安装34及以下版本。<a href="http://download.firefox.com.cn/releases/stub/34.0/official/zh-CN/Firefox-latest.exe">download.firefox.com.cn</a></p></li>
+</ol>
+
+
+<hr />
+
+<h2 id='osx'>OS X下的安装指南</h2>
+
+
+<ol>
+<li><p>安装Homebrew。打开Terminal执行如下命令：</p>
+
+<p> <code>$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p></li>
+<li><p>安装rbenv及Ruby</p>
+
+<ul>
+<li><p>分别执行以下命令: <code>$ brew install rbenv</code>、<code>$ brew install ruby-build</code>、<code>$ rbenv install 1.9.3-p551</code></p></li>
+<li><p>指定1.9.3-p551为默认版本：<code>$ rbenv global 1.9.3-p551</code></p></li>
+<li><p>通过下述命令检查ruby版本: <code>$ ruby -v</code>。</p></li>
+</ul>
+</li>
+<li><p>安装Bundler：<code>$ gem install bundler</code></p></li>
+<li><p>安装Firefox。最新版的支持不太好，请安装34及以下版本。<a href="http://download.firefox.com.cn/releases/firefox/34.0/zh-CN/Firefox-latest.dmg">download.firefox.com.cn</a></p></li>
+</ol>
+
+
+<hr />
+
+<h2 id='sublime'>编辑器安装(可选)</h2>
+
+
+<ol>
+<li><p>下载并安装<a href="http://www.sublimetext.com/2">Sublime Text 2</a></p></li>
+<li><p>安装Cucumber插件</p>
+
+<ul>
+<li><p>安装Package Control组件。在<a href="https://packagecontrol.io/installation#st2">https://packagecontrol.io/installation#st2</a>中找到对应版本的代码并复制，按Ctrl+~（tab键头上的那个键）调出控制台，粘贴到控制台，重新启动Sublime就可以了。
+如果在Perferences->package settings中看到package control这一项，则安装成功。</p></li>
+<li><p>用Package Control安装cucumber插件：</p></li>
+<li><p>mac下：
+按下Ctrl+Shift+P调出命令面板
+输入install 调出 Install Package 选项并回车，继续输入cucumber回车来安装cucumber插件。Mac的Perferences在Sublime Text 2 下。</p></li>
+<li><p>windows下：
+Perferences->Package Control调出命令面板
+输入install 调出 Install Package 选项并回车，继续输入cucumber回车来安装cucumber插件。安装好后，会在Perferences->Package Setting->Package Control->Setting - User 下看到安装的cucumber插件。</p></li>
+</ul>
+</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to post to this blog]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/13/how-to-post-to-this-blog/"/>
+    <updated>2015-01-13T21:39:49+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/13/how-to-post-to-this-blog</id>
+    <content type="html"><![CDATA[<p>In this repo besides master there&rsquo;s a branch called &lsquo;source&rsquo;. Everytime when you run <code>rake gen_deploy</code> it will push the latest contents to the master. So keep in mind <strong>Never push to the master!</strong></p>
+
+<h2>Prepare</h2>
+
+<ul>
+<li>Run command <code>git clone git@github.com:ThoughtWorks-China-QA/thoughtworks-china-qa.github.io.git</code></li>
+<li>Enter the repo <code>cd thoughtworks-china-qa.github.io</code></li>
+<li>Run <code>git status</code> and make sure that you are on source branch. All of our changes will be pushed to source insteand of master</li>
+<li>Run <code>rake setup_github_pages</code> and input our repo: &lsquo;git@github.com:ThoughtWorks-China-QA/thoughtworks-china-qa.github.io.git&rsquo;</li>
+</ul>
+
+
+<!-- more -->
+
+
+<h2>New post</h2>
+
+<ul>
+<li>Run command <code>rake new post</code> and then enter you post&rsquo;s title. It will generate a new markdown file for you under <code>source/_posts</code></li>
+<li><p>When you open this file you will first see the following content:</p>
+
+<pre><code> ---
+ layout: post
+
+ title: "How to post to this blog"
+
+ date: 2015-01-15 21:39:49 +0800
+
+ comments: true
+
+ categories:
+
+ ---
+</code></pre>
+
+<p>Add your content below this paragraph and save it</p></li>
+<li>Run <code>rake generate</code></li>
+<li>Now you can run <code>rake preview</code> to preview your blog. Just open <a href="http://localhost:4000/">http://localhost:4000/</a></li>
+<li>When you finish editing please run <code>rake deploy</code> it will push your changes to master automatically</li>
+<li><p>Last step please run these one by one</p>
+
+<pre><code>`git add .`
+
+`git commit -m 'Why and what you've done. - Name'`
+
+`git push`
+</code></pre></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

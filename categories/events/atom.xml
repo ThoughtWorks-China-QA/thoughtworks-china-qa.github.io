@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: events | ThoughtWorks China QA Blog]]></title>
+  <link href="http://thoughtworks-china-qa.github.io/categories/events/atom.xml" rel="self"/>
+  <link href="http://thoughtworks-china-qa.github.io/"/>
+  <updated>2015-03-05T17:16:18+08:00</updated>
+  <id>http://thoughtworks-china-qa.github.io/</id>
+  <author>
+    <name><![CDATA[ThoughtWorks China QA Group]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ThoughtWorks Xi'an QA Workshop]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop/"/>
+    <updated>2015-01-14T19:08:05+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/14/thoughtworks-xian-qa-workshop</id>
+    <content type="html"><![CDATA[<p>科技改变世界，敏捷改变测试。</p>
+
+<p><code>TDD/BDD/ATDD, Agile testing, Kanban, Mobile testing, Appium</code>…</p>
+
+<p>在敏捷盛行的今天，测试行业也新鲜名词辈出，在科技改变世界的时代，QA们，请把工作交给计算机，让科技和计算机改变QA生活。</p>
+
+<p>如何把QA工作交给计算机？如何让计算机靠谱的跟人一样的去做测试工作？让我们来告诉你！</p>
+
+<p>本次UI Automation Workshop，将手把手教会你如何使用BDD的方式进行自动化测试，将QA工作靠谱地交给计算机。同时，测试行业的哪些新的技术动态？有哪些新的测试工具？又有哪些能改变QA生活的新东西？本次活动将为你一网打尽，带来测试行业最前沿趋势、最流行趋势测试工具大揭秘——<code>ThoughWorks 2015 Technology Radar lightning talk</code>。</p>
+
+<p>此次活动为2015年第一次，后续我们会继续组织测试行业的交流活动，再也不用遗憾西安没有测试交流活动啦，快快加入我们吧！</p>
+
+<h3>时间：2015.1.31 周六 下午1:00</h3>
+
+<h3>地点：陕西省西安市雁塔区高新区锦业一路4号软件研发大厦H座11层</h3>
+
+<h3>日程：</h3>
+
+<table>
+<thead>
+<tr>
+<th>         </th>
+<th style="text-align:left;">                             </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1:00~1:20    </td>
+<td style="text-align:left;">|   签到                          </td>
+</tr>
+<tr>
+<td>1:20~1:30    </td>
+<td style="text-align:left;">|   开场                          </td>
+</tr>
+<tr>
+<td>1:30~3:30    </td>
+<td style="text-align:left;">|   UI Automation Workshop       </td>
+</tr>
+<tr>
+<td>3:30~3:45    </td>
+<td style="text-align:left;">|   提问及茶歇                     </td>
+</tr>
+<tr>
+<td>3:45~5:00    </td>
+<td style="text-align:left;">|   <strong>Technology Radar lightning talk</strong> </td>
+</tr>
+<tr>
+<td>5:00~5:30    </td>
+<td style="text-align:left;">|   Q&amp;A                          </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>报名链接 <a href="https://www.jinshuju.net/f/BSGi4B">https://www.jinshuju.net/f/BSGi4B</a></p>
+
+<p>或扫描二维码：</p>
+
+<p><img src="/images/workshop-qrcode.png" alt="Image of workshop-qrcode" /></p>
+
+<p>如果你不知道技术雷达是什么，请看这里 <a href="http://www.thoughtworks.com/cn/radar">http://www.thoughtworks.com/cn/radar</a></p>
+
+<p>本次测试相关技术及工具:</p>
+
+<ul>
+<li>Appium及GenyMotion</li>
+<li>Postman</li>
+<li>Swagger</li>
+<li>Mountebank及Pact &amp; Pacto</li>
+<li>Packet beat (DevOps, QA)</li>
+<li>Focus on mean time to recovery</li>
+<li>Front end instrumentation</li>
+</ul>
+
+
+<p>如果你不知道ThoughtWorks，请看这里 <a href="http://www.thoughtworks.com/cn/">http://www.thoughtworks.com/cn/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Workshop环境准备]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/13/qa-workshop-20150131/"/>
+    <updated>2015-01-13T23:29:42+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/13/qa-workshop-20150131</id>
+    <content type="html"><![CDATA[<p>本次Workshop，首先我们需要安装一些必备工具/程序，从下面适合您使用的操作系统的教程进行安装。如果碰到问题，不用着急，欢迎<a href="mailto:jyang@thoughtworks.com">联系我们</a>，我们可以一起来想办法。</p>
+
+<p><a href="#windows">Windows下的安装指南</a></p>
+
+<p><a href="#osx">OS X下的安装指南</a></p>
+
+<p><a href="#sublime">编辑器安装(可选)</a></p>
+
+<h2 id='windows'>Windows下的安装指南</h2>
+
+
+<p>Windows我们选取的是以win7为例，其他win8系统等也可以。</p>
+
+<ol>
+<li><p>安装ruby。下载<a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p551.exe?direct">RubyInstaller 1.9.3-p551</a>并安装。</p>
+
+<p> <!-- more --></p>
+
+<ul>
+<li>选择语言</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-1.png" alt="setup-ruby-1.png" width="400px" /></p>
+
+<ul>
+<li>选择同意</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-2.png" alt="setup-ruby-2.png" width="400px" /></p>
+
+<ul>
+<li>选择配置，勾选三个复选框。分别代表：安装Tcl/Tk支持、把Ruby执行文件设置到环境变量PATH、把.rb与.rbw文件与.Ruby关联</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-3.png" alt="setup-ruby-3.png" width="400px" /></p>
+
+<ul>
+<li>安装完成</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-ruby-4.png" alt="setup-ruby-4.png" width="400px" /></p>
+
+<ul>
+<li>确认安装正常。点击如图所示的Start Command Prompt with Ruby，进入命令行。</li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/start-command.png" alt="start command" width="220px" /></p>
+
+<ul>
+<li>查看ruby和gem安装版本。分别执行<code>ruby -v</code> 和 <code>gem --version</code></li>
+</ul>
+
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/check-version.png" alt="check versions" width="300px" /></p></li>
+<li><p>安装DevKit。下载<a href="https://github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe">DevKit</a>并解压。在命令行中进入解压目录，并执行<code>ruby dk.rb init</code>, <code>ruby dk.rb install</code></p>
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/install-devkit.png" alt="install DevKit" width="500px" /></p></li>
+<li><p>安装rubygems。下载<a href="http://production.cf.rubygems.org/rubygems/rubygems-2.4.5.zip">rubygems</a>的zip包，解压，在命令行中进入解压的目录: <code>cd rubygems-2.4.5</code>，并进行安装: <code>ruby setup.rb</code></p>
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/setup-rubygems.png" alt="setup-rubygems" width="300px" /></p></li>
+<li><p>继续在命令行中安装bundler: <code>gem install bundler</code>。安装成功后，执行<code>bundler -v</code>查看版本</p>
+
+<p> <img src="http://thoughtworks-china-qa.github.io/images/install-bundler.png" alt="install-bundler" width="300px" /></p>
+
+<p> NOTE：如果出现错误提示<code>ERROR: Could not find a valid gem 'bundler' in any repository</code>，这是因为网络被qiang的原因，您可以在1.31活动现场我们帮您解决。</p></li>
+<li><p>安装Firefox。最新版的支持不太好，请安装34及以下版本。<a href="http://download.firefox.com.cn/releases/stub/34.0/official/zh-CN/Firefox-latest.exe">download.firefox.com.cn</a></p></li>
+</ol>
+
+
+<hr />
+
+<h2 id='osx'>OS X下的安装指南</h2>
+
+
+<ol>
+<li><p>安装Homebrew。打开Terminal执行如下命令：</p>
+
+<p> <code>$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p></li>
+<li><p>安装rbenv及Ruby</p>
+
+<ul>
+<li><p>分别执行以下命令: <code>$ brew install rbenv</code>、<code>$ brew install ruby-build</code>、<code>$ rbenv install 1.9.3-p551</code></p></li>
+<li><p>指定1.9.3-p551为默认版本：<code>$ rbenv global 1.9.3-p551</code></p></li>
+<li><p>通过下述命令检查ruby版本: <code>$ ruby -v</code>。</p></li>
+</ul>
+</li>
+<li><p>安装Bundler：<code>$ gem install bundler</code></p></li>
+<li><p>安装Firefox。最新版的支持不太好，请安装34及以下版本。<a href="http://download.firefox.com.cn/releases/firefox/34.0/zh-CN/Firefox-latest.dmg">download.firefox.com.cn</a></p></li>
+</ol>
+
+
+<hr />
+
+<h2 id='sublime'>编辑器安装(可选)</h2>
+
+
+<ol>
+<li><p>下载并安装<a href="http://www.sublimetext.com/2">Sublime Text 2</a></p></li>
+<li><p>安装Cucumber插件</p>
+
+<ul>
+<li><p>安装Package Control组件。在<a href="https://packagecontrol.io/installation#st2">https://packagecontrol.io/installation#st2</a>中找到对应版本的代码并复制，按Ctrl+~（tab键头上的那个键）调出控制台，粘贴到控制台，重新启动Sublime就可以了。
+如果在Perferences->package settings中看到package control这一项，则安装成功。</p></li>
+<li><p>用Package Control安装cucumber插件：</p></li>
+<li><p>mac下：
+按下Ctrl+Shift+P调出命令面板
+输入install 调出 Install Package 选项并回车，继续输入cucumber回车来安装cucumber插件。Mac的Perferences在Sublime Text 2 下。</p></li>
+<li><p>windows下：
+Perferences->Package Control调出命令面板
+输入install 调出 Install Package 选项并回车，继续输入cucumber回车来安装cucumber插件。安装好后，会在Perferences->Package Setting->Package Control->Setting - User 下看到安装的cucumber插件。</p></li>
+</ul>
+</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

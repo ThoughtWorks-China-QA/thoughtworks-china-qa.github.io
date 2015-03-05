@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: others | ThoughtWorks China QA Blog]]></title>
+  <link href="http://thoughtworks-china-qa.github.io/categories/others/atom.xml" rel="self"/>
+  <link href="http://thoughtworks-china-qa.github.io/"/>
+  <updated>2015-03-05T17:16:18+08:00</updated>
+  <id>http://thoughtworks-china-qa.github.io/</id>
+  <author>
+    <name><![CDATA[ThoughtWorks China QA Group]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to post to this blog]]></title>
+    <link href="http://thoughtworks-china-qa.github.io/blog/2015/01/13/how-to-post-to-this-blog/"/>
+    <updated>2015-01-13T21:39:49+08:00</updated>
+    <id>http://thoughtworks-china-qa.github.io/blog/2015/01/13/how-to-post-to-this-blog</id>
+    <content type="html"><![CDATA[<p>In this repo besides master there&rsquo;s a branch called &lsquo;source&rsquo;. Everytime when you run <code>rake gen_deploy</code> it will push the latest contents to the master. So keep in mind <strong>Never push to the master!</strong></p>
+
+<h2>Prepare</h2>
+
+<ul>
+<li>Run command <code>git clone git@github.com:ThoughtWorks-China-QA/thoughtworks-china-qa.github.io.git</code></li>
+<li>Enter the repo <code>cd thoughtworks-china-qa.github.io</code></li>
+<li>Run <code>git status</code> and make sure that you are on source branch. All of our changes will be pushed to source insteand of master</li>
+<li>Run <code>rake setup_github_pages</code> and input our repo: &lsquo;git@github.com:ThoughtWorks-China-QA/thoughtworks-china-qa.github.io.git&rsquo;</li>
+</ul>
+
+
+<!-- more -->
+
+
+<h2>New post</h2>
+
+<ul>
+<li>Run command <code>rake new post</code> and then enter you post&rsquo;s title. It will generate a new markdown file for you under <code>source/_posts</code></li>
+<li><p>When you open this file you will first see the following content:</p>
+
+<pre><code> ---
+ layout: post
+
+ title: "How to post to this blog"
+
+ date: 2015-01-15 21:39:49 +0800
+
+ comments: true
+
+ categories:
+
+ ---
+</code></pre>
+
+<p>Add your content below this paragraph and save it</p></li>
+<li>Run <code>rake generate</code></li>
+<li>Now you can run <code>rake preview</code> to preview your blog. Just open <a href="http://localhost:4000/">http://localhost:4000/</a></li>
+<li>When you finish editing please run <code>rake deploy</code> it will push your changes to master automatically</li>
+<li><p>Last step please run these one by one</p>
+
+<pre><code>`git add .`
+
+`git commit -m 'Why and what you've done. - Name'`
+
+`git push`
+</code></pre></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
